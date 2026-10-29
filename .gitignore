@@ -1,0 +1,10 @@
+# Never commit keys or local secrets
+*.p8
+*.pem
+.env
+# dbt / Python build output
+target/
+dbt_packages/
+logs/
+.venv/
+venv/
